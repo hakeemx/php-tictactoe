@@ -29,9 +29,6 @@ $(document).ready(function($) {
 					if($('#board').find(divName2).text() == ''){ 
 						emptySpots.push(divName2);
 					}
-					else{
-						alert("Tied")
-					}
 					//Start new game
 					$(divName2).text('');
 					victory = false;

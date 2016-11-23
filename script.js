@@ -131,7 +131,6 @@ $(document).ready(function() {
 			var randomDiv = emptySpots[Math.floor(Math.random() * emptySpots.length)];
 			//If div is not empty rerun the function
 			if ($(randomDiv).text()!=='') {
-				console.log(randomDiv.text())
 				aiPlay();
 			}
 			else{
