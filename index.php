@@ -22,15 +22,15 @@ session_start();
 		<div id="content" class="fl w-100 pa2">
 			<form class="dt w-30-l w-50-m w-100-ns h-75 center" method="POST">
 				<div id="board" class="dtc v-mid center">
-					<div id="cell-1-1" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-1-2" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-1-3" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-2-1" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-2-2" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-2-3" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-3-1" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-3-2" class="board_cell h-25 pa3 fl w-third tc"></div>
-					<div id="cell-3-3" class="board_cell h-25 pa3 fl w-third tc"></div>
+					<div id="cell-1-1" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-1-2" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-1-3" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-2-1" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-2-2" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-2-3" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-3-1" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-3-2" class="board_cell h-33 pa3 fl w-third tc"></div>
+					<div id="cell-3-3" class="board_cell h-33 pa3 fl w-third tc"></div>
 				</div>
 			</form>
 			<div class="w-30-l w-50-m w-100-ns center">
