@@ -1,0 +1,52 @@
+.overflow{
+	overflow: hidden;
+}
+.x,.o{
+	position: relative;
+	text-align: center;
+	font-size: 5rem;
+	will-change: transform;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-animation: appear 0.15s cubic-bezier(0.5,1.8,0.1,1.1);
+	-moz-animation: appear 0.15s cubic-bezier(0.5,1.8,0.1,1.1);
+	animation: appear 0.15s cubic-bezier(0.5,1.8,0.1,1.1);
+}
+#board{
+	overflow: hidden;
+}
+.board_cell{
+	 height: 33.33333%;
+	 min-height: 124% !important;
+}
+#board>.board_cell:nth-child(even){
+	border-left: 2px solid #F6FFFE ;
+	/* border-right: 2px solid #F6FFFE ; */
+	border-bottom: 2px solid #F6FFFE ;
+}
+#board>.board_cell:nth-child(odd){
+	border-left: 2px solid #F6FFFE ;
+	/* border-right: 2px solid; */
+	border-bottom: 2px solid #F6FFFE ;
+}
+#board>.board_cell:nth-child(7){
+	border:0;
+}
+#board>.board_cell:nth-child(7){
+	border:0;
+}
+#board>.board_cell:nth-child(1),#board>.board_cell:nth-child(4){
+	/* border-left: 2px solid; */
+	/* border-right: 2px solid; */
+	/* border-bottom: 2px solid; */
+	border-left: 0;
+}
+#board>.board_cell:nth-child(6){
+	border-right:0;
+}
+#board>.board_cell:nth-child(6){
+	border-right:0;
+}
+#board>.board_cell:nth-child(8),#board>.board_cell:nth-child(9){
+	border-bottom:0;
+}
