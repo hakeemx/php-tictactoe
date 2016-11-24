@@ -14,13 +14,15 @@
 }
 #board{
 	overflow: hidden;
+	/* display: none; */
 }
 .h-33{
 	height: 33.333333% !important;
 }
 .board_cell{
-	 /* height: 33.33333%; */
-	 /* min-height: 124% !important; */
+	 /* height: 100px; */
+	 /* height: auto; */
+	 overflow: auto;
 }
 #board>.board_cell:nth-child(even){
 	border-left: 2px solid #F6FFFE ;

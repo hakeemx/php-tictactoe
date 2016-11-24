@@ -16,6 +16,7 @@ $(document).ready(function() {
 	//Variables to hold user scores
 	var myScore = 0;
 	var oppScore = 0;
+	var tieScore = 0;
 
 	//Functions
 		//Function that launches when a new game is created
@@ -107,8 +108,11 @@ $(document).ready(function() {
 				}
 
 			}
-			else{
-				
+			console.log(emptySpots);
+			if (emptySpots.length <=1) {
+				//Call it a tie and start new game
+				tieScore +=1;
+				$('tieScore').text(tieScore);
 			}
 			
 			//Remove current div from the empty spot array
@@ -135,7 +139,6 @@ $(document).ready(function() {
 			}
 			else{
 				setPlay("O", randomDiv)
-				console.log($(randomDiv).text())
 			}
 			
 		}
